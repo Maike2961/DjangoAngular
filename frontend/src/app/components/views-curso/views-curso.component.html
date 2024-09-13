@@ -1,0 +1,31 @@
+
+<div class="container" style="width: 100vw;">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Visualizar Cursos</h1>
+            <table class="table mt-3 table-hover table-dark table-bordered rounded-pill text-center table-sm: p-3">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Curso</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Categoria</th>
+                        <th scope="col">...</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let user of lista; index as i">
+                        <th scope="row">{{i + 1 }}</th>
+                        <td>{{user.title}}</td>
+                        <td>{{user.content}}</td>
+                        <td>{{user.category}}</td>
+                        <td>
+                            <button class="btn btn-primary table-sm: mb-2" routerLink="edit/{{user.id!}}">Editar</button>
+                            <button class="btn btn-danger mx-2 table-sm: mb-2" (click)="DeleteCurso(user)">Deletar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

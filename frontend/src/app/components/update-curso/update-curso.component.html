@@ -1,0 +1,20 @@
+<section class="bg-dark text-white rounded-3 p-3" style="width: 80vw;">
+    <form [formGroup]="formulario" class="d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-center">Edição curso</h1>
+        <div class="form-group w-100 p-2">
+            <label for="title">Titulo</label>
+            <input type="text" id="title" formControlName="title" [ngModel]="title" class="form-control" />
+        </div>
+
+        <div class="form-group w-100 p-2">
+            <label for="content">Descrição</label>
+            <input type="text" id="content" formControlName="content" [ngModel]="content" class="form-control" />
+        </div>
+
+        <div class="form-group w-100 p-2">
+            <label for="category">Categoria</label>
+            <input type="text" id="category" formControlName="category" [ngModel]="category" class="form-control" />
+        </div>
+        <button class="btn btn-info mt-2" (click)="onSubmit()">Editar</button>
+    </form>
+</section>
