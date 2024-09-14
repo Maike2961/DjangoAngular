@@ -1,27 +1,16 @@
-# Frontend
+# Projeto com Django e Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+### CRUD com Back-end Django, e Front-end com Angular
 
-## Development server
+## Antes de iniciar, faça as seguintes configurações:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Na pasta Back-end, crie um ambiente virtual
 
-## Code scaffolding
+- Use o comando pip install requirements.txt para instalar as dependências
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Depois os comandos python manage.py makemigrations e python manage.py migrate e por fim   python manage.py runserver
 
-## Build
+- Na pasta Front-end, use o comando npm install para instalar as dependências
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- E use o comando 'ng s' para rodar 
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

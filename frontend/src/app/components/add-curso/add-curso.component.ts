@@ -38,7 +38,7 @@ export class AddCursoComponent {
         }
       })
     }
-    alert('Curso Adicionado')
     this.router.navigate(['/'])
+    alert('Curso Adicionado')
   }
 }

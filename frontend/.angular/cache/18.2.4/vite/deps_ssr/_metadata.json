@@ -1,62 +1,53 @@
 {
-  "hash": "12452860",
-  "configHash": "bc184e9e",
-  "lockfileHash": "3488acc1",
-  "browserHash": "eee020fe",
+  "hash": "5ff67e2c",
+  "configHash": "bde62a25",
+  "lockfileHash": "f031f9aa",
+  "browserHash": "260de56b",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "bd575d6a",
+      "fileHash": "70f4d7ca",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "6bfbf93d",
+      "fileHash": "a5d055fb",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "9c5d4d3d",
+      "fileHash": "bded351c",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "0dafbbcb",
+      "fileHash": "0e197490",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "3fdd5296",
+      "fileHash": "47ab757b",
       "needsInterop": false
     },
     "@angular/platform-server": {
       "src": "../../../../../node_modules/@angular/platform-server/fesm2022/platform-server.mjs",
       "file": "@angular_platform-server.js",
-      "fileHash": "812a0d04",
+      "fileHash": "b176515c",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "209fe250",
-      "needsInterop": false
-    },
-    "tslib": {
-      "src": "../../../../../node_modules/tslib/tslib.es6.mjs",
-      "file": "tslib.js",
-      "fileHash": "14262960",
+      "fileHash": "89139a5e",
       "needsInterop": false
     }
   },
   "chunks": {
-    "xhr2-AQ42KH57": {
-      "file": "xhr2-AQ42KH57.js"
-    },
     "chunk-WADH6FIV": {
       "file": "chunk-WADH6FIV.js"
     },
@@ -68,6 +59,9 @@
     },
     "chunk-GPPHCCFQ": {
       "file": "chunk-GPPHCCFQ.js"
+    },
+    "xhr2-AQ42KH57": {
+      "file": "xhr2-AQ42KH57.js"
     },
     "chunk-NQ4HTGF6": {
       "file": "chunk-NQ4HTGF6.js"
